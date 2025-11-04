@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Dataset outputs (don't commit large datasets)
+*_output/
+out/
+dataset_output/
+enhanced_dataset_output/
+semantic_dataset_output/
+token_aware_dataset_output/
+cpt_training_dataset_output/
+
+# Data files
+*.jsonl
+*.parquet
+*.csv
+*.txt
+!requirements.txt
+
+# Repository clones
+hyperswitch/
+*/hyperswitch/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
