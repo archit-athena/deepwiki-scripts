@@ -35,7 +35,7 @@ def extract_code_blocks_from_content(content: str) -> List[Dict[str, str]]:
         language = match.group(1) or 'text'
         code = match.group(2).strip()
         if code:
-            code_blocks.append({
+            code_blocks.app``end({
                 'language': language,
                 'code': code
             })
